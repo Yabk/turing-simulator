@@ -1,0 +1,13 @@
+symbols=01b
+default_symbol=b
+tape=bbb100111bbb
+cursor=8
+starting_state=q0
+ending_state=qf
+state={
+        'q0': {
+            '0': ['1', 'n', 'qf'],
+            '1': ['0', 'l', 'q0'],
+            'b': ['1', 'n', 'qf']
+        }
+}
