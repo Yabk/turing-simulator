@@ -1,6 +1,6 @@
 # Turing Simulator
 
-Simple CLI Turing simulator written in python3.
+Simple CLI Turing machine simulator written in python3.
 
 ## Getting Started
 
